@@ -1,2 +1,5 @@
 mountpoints:
-  /: https://drive.google.com/drive/folders/1CkcbFD_NiAbn8LfuWqFe-YBLqW-cuqLT
+  /: 
+    url: "https://author-p153606-e1610127.adobeaemcloud.com//bin/franklin.delivery/anurag-acn/nvi-ue/main"
+    type: "markup"
+    suffix: ".html"
