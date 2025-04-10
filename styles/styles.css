@@ -87,7 +87,7 @@
 }
 
 h1 {
-  color: var(--primary-color1);
+  color: var(--primary-color1) !important;
   font-size: 80px;
   font-style: normal;
   font-weight: 800;
@@ -96,7 +96,7 @@ h1 {
 }
 
 h2 {
-  color: var(--secondary-color2);
+  color: var(--secondary-color2) !important;
   font-size: 48px;
   font-style: normal;
   font-weight: 800;
@@ -106,7 +106,6 @@ h2 {
 
   @media (width <= 900) {
     h1 {
-    color: ; 
     font-size: 64px;
     font-style: normal;
     font-weight: 800;
