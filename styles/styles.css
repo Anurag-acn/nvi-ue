@@ -19,6 +19,39 @@
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
 
+  /*Americas color */
+
+  --primary-color1 : #2459a9;
+  --primary-color2 : #ed1c24;
+
+  --secondary-color1 : #1A6F7B;
+  --secondary-color2 : #015039;
+  --secondary-color3 : #F76523;
+  --secondary-color4 : #FAA82D;
+
+  --feedback-color1 :#FFC400;
+  --feedback-color2 :#036131;
+  --feedback-color3 :#CE001F;
+
+  /*Neutral color */
+
+  --color-white :#FFFFFF;
+  --color-LightGray :#E7E7E7;
+  --color-gray :#B0B0B0;
+  --color-lighter-warm :#F3F2EF;
+  --color-light-warm :#DEDACD;
+  --color-mid-warm :#8D866D;
+  --color-dark-warm :#625E59;
+  --color-darkest-warm :#1C1818;
+  --color-black :#000000;
+
+
+
+  
+
+  
+
+
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
   --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
