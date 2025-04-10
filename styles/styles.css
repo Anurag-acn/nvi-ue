@@ -86,6 +86,29 @@
   src: local('Arial');
 }
 
+h1 {
+  color: var(--Altafiber-Black, #1E1E1E);
+  font-family: var(--Typography_Mode, Avenir);
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 92px;
+  letter-spacing: -0.8px;
+}
+
+  @media (width <= 900) {
+    h1 { 
+    color: var(--Altafiber-Black, #1E1E1E);
+    font-family: var(--Typography_Mode, Avenir);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 72px;
+    letter-spacing: -0.64px;
+  }
+}
+
+
 @media (width >= 900px) {
   :root {
     /* body sizes */
