@@ -87,8 +87,7 @@
 }
 
 h1 {
-  color: var(--Altafiber-Black, #1E1E1E);
-  font-family: var(--Typography_Mode, Avenir);
+  color: var(--primary-color1);
   font-size: 80px;
   font-style: normal;
   font-weight: 800;
@@ -96,16 +95,34 @@ h1 {
   letter-spacing: -0.8px;
 }
 
+h2 {
+  color: var(--secondary-color2);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 58px;
+  letter-spacing: -0.48px;
+}
+
   @media (width <= 900) {
-    h1 { 
-    color: var(--Altafiber-Black, #1E1E1E);
-    font-family: var(--Typography_Mode, Avenir);
+    h1 {
+    color: ; 
     font-size: 64px;
     font-style: normal;
     font-weight: 800;
     line-height: 72px;
     letter-spacing: -0.64px;
   }
+  
+  h2 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.32px;
+
+  }
+
 }
 
 
