@@ -66,14 +66,14 @@
         {
           "component": "aem-content",
           "name": "button1",
-          "value": "",
+          "value": "button1",
           "label": "Link",
           "valueType": "Link"
         },
         {
           "component": "aem-content",
           "name": "button2",
-          "value": "",
+          "value": "button2",
           "label": "Link",
           "valueType": "Link"
         }
