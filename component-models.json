@@ -180,14 +180,14 @@
         "valueType": "string"
       },
       {
-        "component": "button",
+        "component": "aem-content",
         "name": "button1",
         "value": "",
         "label": "Link",
         "valueType": "Link"
       },
       {
-        "component": "button",
+        "component": "aem-content",
         "name": "button2",
         "value": "",
         "label": "Link",
