@@ -67,15 +67,15 @@
           "component": "button",
           "name": "button1",
           "value": "",
-          "label": "Button 1",
-          "valueType": "string"
+          "label": "Link",
+          "valueType": "Link"
         },
         {
           "component": "button",
           "name": "button2",
           "value": "",
-          "label": "Button 2",
-          "valueType": "string"
+          "label": "Link",
+          "valueType": "Link"
         }
         
       ]
