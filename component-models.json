@@ -160,6 +160,13 @@
       },
       {
         "component": "text",
+        "name": "pretitle",
+        "value": "",
+        "label": "pretitle",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
         "name": "title",
         "value": "",
         "label": "Title",
@@ -173,39 +180,18 @@
         "valueType": "string"
       },
       {
-        "component": "richtext",
-        "name": "text",
+        "component": "button",
+        "name": "button1",
         "value": "",
-        "label": "Text",
-        "valueType": "string"
+        "label": "Link",
+        "valueType": "Link"
       },
       {
-        "component": "text",
-        "name": "link1Label",
+        "component": "button",
+        "name": "button2",
         "value": "",
-        "label": "Link 1 Label",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "link1Url",
-        "value": "",
-        "label": "Link 1 URL",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "link2Label",
-        "value": "",
-        "label": "Link 2 Label",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "link2Url",
-        "value": "",
-        "label": "Link 2 URL",
-        "valueType": "string"
+        "label": "Link",
+        "valueType": "Link"
       }
 
     ]
