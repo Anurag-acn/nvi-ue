@@ -43,10 +43,52 @@
           "multi": false
         },
         {
+          "component": "text",
+          "name": "title",
+          "value": "",
+          "label": "Title",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "subtitle",
+          "value": "",
+          "label": "Subtitle",
+          "valueType": "string"
+        },
+        {
           "component": "richtext",
           "name": "text",
           "value": "",
           "label": "Text",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "link1Label",
+          "value": "",
+          "label": "Link 1 Label",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "link1Url",
+          "value": "",
+          "label": "Link 1 URL",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "link2Label",
+          "value": "",
+          "label": "Link 2 Label",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "link2Url",
+          "value": "",
+          "label": "Link 2 URL",
           "valueType": "string"
         }
       ]
