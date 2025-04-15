@@ -152,13 +152,6 @@
         "multi": false
       },
       {
-        "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
-      },
-      {
         "component": "text",
         "name": "pretitle",
         "value": "",
@@ -180,17 +173,24 @@
         "valueType": "string"
       },
       {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "BodyText",
+        "valueType": "string"
+      },
+      {
         "component": "aem-content",
-        "name": "button1",
+        "name": "button",
         "value": "button1",
-        "label": "Link",
+        "label": "ButtonLink",
         "valueType": "Link"
       },
       {
         "component": "aem-content",
-        "name": "button2",
+        "name": "button CTA",
         "value": "button2",
-        "label": "Link",
+        "label": "CTALinkButton",
         "valueType": "Link"
       }
 
