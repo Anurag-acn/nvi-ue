@@ -243,11 +243,46 @@
         "value": ""
       },
       {
+        "component": "text",
+        "name": "pretitle",
+        "value": "",
+        "label": "pretitle",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "title",
+        "value": "",
+        "label": "Title",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "subtitle",
+        "value": "",
+        "label": "Subtitle",
+        "valueType": "string"
+      },
+      {
         "component": "richtext",
         "name": "text",
         "value": "",
-        "label": "Text",
+        "label": "BodyText",
         "valueType": "string"
+      },
+      {
+        "component": "aem-content",
+        "name": "button",
+        "value": "button1",
+        "label": "ButtonLink",
+        "valueType": "Link"
+      },
+      {
+        "component": "aem-content",
+        "name": "button CTA",
+        "value": "button2",
+        "label": "CTALinkButton",
+        "valueType": "Link"
       }
     ]
   },
