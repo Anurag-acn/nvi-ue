@@ -259,7 +259,7 @@
       {
         "component": "text",
         "name": "subtitle",
-        "value": "",
+        "value": "subtitle",
         "label": "Subtitle",
         "valueType": "string"
       },
