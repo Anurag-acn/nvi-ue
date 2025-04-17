@@ -65,3 +65,8 @@
   text-align: left;
   flex: 1;
 }
+
+.hero-cta-2 a {
+  color: var(--link-color) !important;
+  background: unset !important;
+}
