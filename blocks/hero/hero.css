@@ -23,3 +23,44 @@
   height: auto;
   display: block;
 }
+.hero.block p {
+  margin: 0;
+}
+.hero-wrapper .hero-text-1{
+  font-weight: 800;
+  font-size: var(--body-font-size-xs);
+  text-align: center;
+}
+.hero-wrapper .hero-text-2{
+  font-weight: 800;
+  font-size: 48px;
+  text-align: center;
+}
+.hero-wrapper .hero-text-3{
+  font-weight: 500;
+  font-size: var(--heading-font-size-s);
+  text-align: center;
+}
+.hero-wrapper .hero-text-4{
+  font-weight: 400;
+  font-size: var(--body-font-size-s);
+  text-align: center;
+}
+
+.hero-cta-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.hero-cta-1 {
+  text-align: left;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.hero-cta-2 {
+  text-align: right;
+  flex: 1;
+}
