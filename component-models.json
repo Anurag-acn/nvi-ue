@@ -236,6 +236,24 @@
         "multi": false
       },
       {
+        "component": "select",
+        "name": "variation",
+        "value": "",
+        "label": "Variation",
+        "description": "",
+        "valueType": "string",
+        "options": [
+            {
+                "name": "Default",
+                "value": ""
+            },
+            {
+                "name": "Left-side",
+                "value": "left-side"
+            }
+        ]
+    },
+      {
         "component": "text",
         "valueType": "string",
         "name": "imageAlt",
