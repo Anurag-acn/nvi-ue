@@ -245,6 +245,13 @@
         "multi": false
       },
       {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
         "component": "select",
         "name": "variation",
         "value": "",
@@ -261,13 +268,6 @@
                 "value": "left-side"
             }
         ]
-    },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "imageAlt",
-        "label": "Alt",
-        "value": ""
       },
       {
         "component": "text",
