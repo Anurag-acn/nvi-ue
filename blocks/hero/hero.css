@@ -1,12 +1,14 @@
 .hero-container .hero-wrapper {
   max-width: unset;
-  padding: 0;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-.hero {
-  position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
+.hero.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .hero h1 {
@@ -16,22 +18,49 @@
   color: var(--background-color);
 }
 
-.hero picture {
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  object-fit: cover;
+.hero.block picture {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.hero.block p {
+  margin: 0;
+}
+.hero-wrapper .hero-text-1{
+  font-weight: 800;
+  font-size: var(--body-font-size-xs);
+  text-align: center;
+}
+.hero-wrapper .hero-text-2{
+  font-weight: 800;
+  font-size: 48px;
+  text-align: center;
+}
+.hero-wrapper .hero-text-3{
+  font-weight: 500;
+  font-size: var(--heading-font-size-s);
+  text-align: center;
+}
+.hero-wrapper .hero-text-4{
+  font-weight: 400;
+  font-size: var(--body-font-size-s);
+  text-align: center;
+}
+
+.hero-cta-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
   box-sizing: border-box;
 }
 
-.hero img {
-  object-fit: cover;
-  width: 50%;
-  height: 100%;
+.hero-cta-1 {
+  text-align: left;
+  flex: 1;
+  margin-right: 20px;
 }
 
-@media (width >= 900px) {
-  .hero {
-    padding: 40px 32px;
-  }
+.hero-cta-2 {
+  text-align: right;
+  flex: 1;
 }
