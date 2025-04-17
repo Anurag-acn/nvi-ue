@@ -246,6 +246,24 @@
         "multi": false
       },
       {
+        "component": "select",
+        "name": "variation",
+        "value": "",
+        "label": "Variation",
+        "description": "",
+        "valueType": "string",
+        "options": [
+            {
+                "name": "Default",
+                "value": ""
+            },
+            {
+                "name": "Left-side",
+                "value": "left-side"
+            }
+        ]
+    },
+      {
         "component": "text",
         "valueType": "string",
         "name": "imageAlt",
@@ -282,17 +300,33 @@
       },
       {
         "component": "aem-content",
-        "name": "button",
-        "value": "button1",
-        "label": "ButtonLink",
-        "valueType": "Link"
+        "name": "link",
+        "label": "Link"
+      },
+      {
+        "component": "text",
+        "name": "linkText",
+        "label": "Text"
+      },
+      {
+        "component": "text",
+        "name": "linkTitle",
+        "label": "Title"
       },
       {
         "component": "aem-content",
-        "name": "button CTA",
-        "value": "button2",
-        "label": "CTALinkButton",
-        "valueType": "Link"
+        "name": "link1",
+        "label": "Link"
+      },
+      {
+        "component": "text",
+        "name": "link1Text",
+        "label": "Text"
+      },
+      {
+        "component": "text",
+        "name": "link1Title",
+        "label": "Title"
       }
     ]
   },
