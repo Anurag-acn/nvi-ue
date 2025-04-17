@@ -7,8 +7,6 @@
 .hero.block {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
 }
 
 .hero h1 {
@@ -22,6 +20,9 @@
   max-width: 100%;
   height: auto;
   display: block;
+}
+.hero.block img {
+  width: 100%;
 }
 .hero.block p {
   margin: 0;
@@ -55,12 +56,12 @@
 }
 
 .hero-cta-1 {
-  text-align: left;
+  text-align: right;
   flex: 1;
   margin-right: 20px;
 }
 
 .hero-cta-2 {
-  text-align: right;
+  text-align: left;
   flex: 1;
 }
