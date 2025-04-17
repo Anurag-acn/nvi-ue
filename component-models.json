@@ -187,12 +187,22 @@
         "valueType": "Link"
       },
       {
+        "component": "text",
+        "name": "linkText",
+        "label": "Text"
+      },
+      {
         "component": "aem-content",
         "name": "button CTA",
         "value": "button2",
         "label": "CTALinkButton",
         "valueType": "Link"
       }
+      {
+        "component": "text",
+        "name": "linkText",
+        "label": "Text"
+      },
 
     ]
   },
