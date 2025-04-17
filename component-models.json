@@ -300,32 +300,32 @@
       {
         "component": "aem-content",
         "name": "link",
-        "label": "Link"
+        "label": "Link1"
       },
       {
         "component": "text",
         "name": "linkText",
-        "label": "Text"
+        "label": "Link1 Text"
       },
       {
         "component": "text",
         "name": "linkTitle",
-        "label": "Title"
+        "label": "Link1 Title"
       },
       {
         "component": "aem-content",
         "name": "link1",
-        "label": "Link"
+        "label": "Link2"
       },
       {
         "component": "text",
         "name": "link1Text",
-        "label": "Text"
+        "label": "Link2 Text"
       },
       {
         "component": "text",
         "name": "link1Title",
-        "label": "Title"
+        "label": "Link2 Title"
       }
     ]
   },
