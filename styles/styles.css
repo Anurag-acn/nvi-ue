@@ -95,6 +95,12 @@ button.secondary {
   --body-font-family: roboto, roboto-fallback, sans-serif;
   --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
 
+  /* Typography */
+  --font-family-base: 'Helvetica Neue', Arial, sans-serif;
+  --font-size-base: 16px;
+  --font-size-heading: 2rem;
+  --line-height-base: 1.5;
+
   /* body sizes */
   --body-font-size-m: 22px;
   --body-font-size-s: 19px;
