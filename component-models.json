@@ -320,60 +320,60 @@
       },
       {
         "component": "text",
-        "name": "pretitle",
+        "name": "heroText_pretitle",
         "value": "",
         "label": "pretitle",
         "valueType": "string"
       },
       {
         "component": "text",
-        "name": "title",
+        "name": "heroText_title",
         "value": "",
         "label": "Title",
         "valueType": "string"
       },
       {
         "component": "text",
-        "name": "subtitle",
+        "name": "heroText_subtitle",
         "value": "",
         "label": "Subtitle",
         "valueType": "string"
       },
       {
         "component": "richtext",
-        "name": "text",
+        "name": "heroText_text",
         "value": "",
         "label": "BodyText",
         "valueType": "string"
       },
       {
         "component": "aem-content",
-        "name": "link",
+        "name": "heroText_link",
         "label": "Link1"
       },
       {
         "component": "text",
-        "name": "linkText",
+        "name": "heroText_linkText",
         "label": "Link1 Text"
       },
       {
         "component": "text",
-        "name": "linkTitle",
+        "name": "heroText_linkTitle",
         "label": "Link1 Title"
       },
       {
         "component": "aem-content",
-        "name": "link1",
+        "name": "heroText_link1",
         "label": "Link2"
       },
       {
         "component": "text",
-        "name": "link1Text",
+        "name": "heroText_link1Text",
         "label": "Link2 Text"
       },
       {
         "component": "text",
-        "name": "link1Title",
+        "name": "heroText_link1Title",
         "label": "Link2 Title"
       }
     ]
