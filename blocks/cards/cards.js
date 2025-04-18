@@ -9,21 +9,12 @@ export default function decorate(block) {
     moveInstrumentation(row, li);
     while (row.firstElementChild) li.append(row.firstElementChild);
     [...li.children].forEach((div) => {
-      const childCount = div.children.length;
-      const hasP = div.querySelector('p');
-      const hasPicture = div.querySelector('picture');
-      
-      if (childCount === 1 && hasPicture) {
-        div.className = 'cards-card-image';
-      } else if (childCount === 2 && hasP) {
-        div.className = 'cards-card-pretitle';
-      } else if (childCount === 3 && hasP) {
-        div.className = 'cards-card-title';
-      } else if (childCount === 4 && hasP) {
-        div.className = 'cards-card-subtitle';
-      } else if (childCount === 5 && hasP) {
-        div.className = 'cards-card-bodytext';
-      }
+      if (div.children.length === 1 && div.querySelector('picture')) div.className = 'cards-card-image';
+      if (div.children.length === 2 && div.querySelector('p')) div.className = 'cards-card-pretitle';
+      if (div.children.length === 3 && div.querySelector('p')) div.className = 'cards-card-title';
+      if (div.children.length === 4 && div.querySelector('p')) div.className = 'cards-card-subtitle';
+      if (div.children.length === 5 && div.querySelector('p')) div.className = 'cards-card-bodytext';
+    
     });    
     ul.append(li);
   });
