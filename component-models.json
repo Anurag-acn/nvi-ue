@@ -186,17 +186,17 @@
       },
       {
         "component": "text",
-        "name": "link_text",
+        "name": "linkText",
         "label": "Link1 Text"
       },
       {
         "component": "text",
-        "name": "link_title",
+        "name": "linkTitle",
         "label": "Link1 Title"
       },
       {
         "component": "select",
-        "name": "link_type",
+        "name": "linkType",
         "label": "Type",
         "options": [
           {
@@ -220,17 +220,17 @@
       },
       {
         "component": "text",
-        "name": "link1_text",
+        "name": "link1Text",
         "label": "Link2 Text"
       },
       {
         "component": "text",
-        "name": "link1_title",
+        "name": "link1Title",
         "label": "Link2 Title"
       },
       {
         "component": "select",
-        "name": "link1_type",
+        "name": "link1Type",
         "label": "Type",
         "options": [
           {
