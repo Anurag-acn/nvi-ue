@@ -9,21 +9,22 @@ export default function decorate(block) {
     moveInstrumentation(row, li);
     while (row.firstElementChild) li.append(row.firstElementChild);
     [...li.children].forEach((div) => {
-      const length = div.children.length;
+      const childCount = div.children.length;
       const hasP = div.querySelector('p');
       const hasPicture = div.querySelector('picture');
-    
-      const classMap = {
-        1: () => hasPicture && 'cards-card-image',
-        2: () => hasP && 'cards-card-pretitle',
-        3: () => hasP && 'cards-card-title',
-        4: () => hasP && 'cards-card-subtitle',
-        5: () => hasP && 'cards-card-bodytext',
-      };
-    
-      const className = classMap[length]?.();
-      if (className) div.className = className;
-    });
+      
+      if (childCount === 1 && hasPicture) {
+        div.className = 'cards-card-image';
+      } else if (childCount === 2 && hasP) {
+        div.className = 'cards-card-pretitle';
+      } else if (childCount === 3 && hasP) {
+        div.className = 'cards-card-title';
+      } else if (childCount === 4 && hasP) {
+        div.className = 'cards-card-subtitle';
+      } else if (childCount === 5 && hasP) {
+        div.className = 'cards-card-bodytext';
+      }
+    });    
     ul.append(li);
   });
   ul.querySelectorAll('picture > img').forEach((img) => {
