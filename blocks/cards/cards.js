@@ -8,7 +8,6 @@ export default function decorate(block) {
     const li = document.createElement('li');
     moveInstrumentation(row, li);
     while (row.firstElementChild) li.append(row.firstElementChild);
-    debugger
     [...li.children].forEach((div) => {
       const length = div.children.length;
       const hasP = div.querySelector('p');
