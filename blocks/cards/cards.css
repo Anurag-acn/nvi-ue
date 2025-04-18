@@ -25,3 +25,38 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+.card ul .last-card{
+  padding: 10px;
+}
+
+.last-card .cards-card-pretitle p {
+  color:var(--Brands-Warm-Dark, #625E59);
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0px;
+}
+
+.last-card .cards-card-title p {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -1%;
+  margin: 0;
+  
+}
+
+.last-card .cards-card-subtitle p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0px;  
+}
+
+.last-card .cards-card-bodytext p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0px;
+}
