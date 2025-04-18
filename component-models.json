@@ -290,13 +290,6 @@
         "multi": false
       },
       {
-        "component": "text",
-        "valueType": "string",
-        "name": "imageAlt",
-        "label": "Alt",
-        "value": ""
-      },
-      {
         "component": "select",
         "name": "classes",
         "value": "",
@@ -305,14 +298,25 @@
         "valueType": "string",
         "options": [
             {
-                "name": "Default",
-                "value": ""
+                "name": "Right Align Full Bleed",
+                "value": "hero-right-bleed"
             },
             {
-                "name": "Left-side",
-                "value": "left-side"
+              "name": "Left Align Full Bleed",
+              "value": "hero-left-bleed"
+            },
+            {
+                "name": "Bottom Align Full Bleed",
+                "value": "hero-bottom-bleed"
             }
         ]
+    },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
       },
       {
         "component": "text",
