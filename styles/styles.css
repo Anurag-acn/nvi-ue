@@ -39,8 +39,20 @@
   --ew-main-gray: #4294F7;
 
   --ew-second-green: #6BA43A;
-  --ew-second-orange: #FF4D00;
+  --ew-orange-color2: #FF4D00;
+  --ew-orange-color3: #FF9900;
   --ew-second-brown: #7B6756;
+
+  --vista-blue: #21356E;
+  --vista-teal: #21666C;
+  --vista-gray: #EFEFEF;
+
+  --dc-main-blue: #1a68a8;
+  --dc-main-blue-light: #1a8dcd;
+  --dc-darkest-blue: #0C2040;
+  --dc-second-dark-blue: #193F7F;
+  --dc-second-light-blue: #C6E3F3;
+  --dc-main-orange: #EF7000;
 
   /*Neutral color */
 
