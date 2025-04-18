@@ -298,7 +298,7 @@
         "valueType": "string",
         "options": [
             {
-                "name": "Right Align Full Bleed",
+                "name": "Default",
                 "value": "hero-right-bleed"
             },
             {
