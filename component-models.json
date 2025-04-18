@@ -243,7 +243,7 @@
       },
       {
         "component": "select",
-        "name": "variation",
+        "name": "classes",
         "value": "",
         "label": "Variation",
         "description": "",
