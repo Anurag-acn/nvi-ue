@@ -186,17 +186,17 @@
       },
       {
         "component": "text",
-        "name": "linkText",
+        "name": "link_text",
         "label": "Link1 Text"
       },
       {
         "component": "text",
-        "name": "linkTitle",
+        "name": "link_title",
         "label": "Link1 Title"
       },
       {
         "component": "select",
-        "name": "CardlinkType1",
+        "name": "link_type",
         "label": "Type",
         "options": [
           {
@@ -220,17 +220,17 @@
       },
       {
         "component": "text",
-        "name": "link1Text",
+        "name": "link1_text",
         "label": "Link2 Text"
       },
       {
         "component": "text",
-        "name": "link1Title",
+        "name": "link1_title",
         "label": "Link2 Title"
       },
       {
         "component": "select",
-        "name": "cardlinkType2",
+        "name": "link1_type",
         "label": "Type",
         "options": [
           {
