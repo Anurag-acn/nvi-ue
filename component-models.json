@@ -196,7 +196,7 @@
       },
       {
         "component": "select",
-        "name": "linkType",
+        "name": "CardlinkType1",
         "label": "Type",
         "options": [
           {
@@ -230,7 +230,7 @@
       },
       {
         "component": "select",
-        "name": "linkType",
+        "name": "cardlinkType2",
         "label": "Type",
         "options": [
           {
@@ -298,7 +298,7 @@
         "valueType": "string",
         "options": [
             {
-                "name": "Default",
+                "name": "Right Align Full Bleed",
                 "value": "hero-right-bleed"
             },
             {
