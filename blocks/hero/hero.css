@@ -23,6 +23,7 @@
 }
 .hero.block img {
   width: 100%;
+  aspect-ratio: 16/9;
 }
 .hero.block p {
   margin: 0;
@@ -41,7 +42,6 @@
   text-align: center;
   line-height: 58px;
   margin-bottom: 4px;
-
 }
 .hero-wrapper .hero-text-3{
   font-weight: 500;
@@ -81,12 +81,10 @@
 .hero-cta-container .hero-cta-2 a.button:any-link {
   padding: 16px;
 }
-
 .hero-cta-2 a {
   color: var(--link-color) !important;
   background: unset !important;
 }
-
 .hero-cta-container a.button:any-link {
   margin: 0px;
 }

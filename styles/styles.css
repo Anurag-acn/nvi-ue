@@ -33,6 +33,15 @@
   --feedback-color2 :#036131;
   --feedback-color3 :#CE001F;
 
+  /*eyeglass color*/
+  --ew-main-blue: #007CBA;
+  --ew-main-red: #E12726;
+  --ew-main-gray: #4294F7;
+
+  --ew-second-green: #6BA43A;
+  --ew-second-orange: #FF4D00;
+  --ew-second-brown: #7B6756;
+
   /*Neutral color */
 
   --color-white :#FFFFFF;
