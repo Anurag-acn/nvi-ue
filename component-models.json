@@ -187,11 +187,21 @@
         "valueType": "Link"
       },
       {
+        "component": "text",
+        "name": "linkText",
+        "label": "Text"
+      },
+      {
         "component": "aem-content",
         "name": "button CTA",
         "value": "button2",
         "label": "CTALinkButton",
         "valueType": "Link"
+      },
+      {
+        "component": "text",
+        "name": "linkText",
+        "label": "Text"
       }
     ]
   },
@@ -235,15 +245,8 @@
         "multi": false
       },
       {
-        "component": "text",
-        "valueType": "string",
-        "name": "imageAlt",
-        "label": "Alt",
-        "value": ""
-      },
-      {
         "component": "select",
-        "name": "classes",
+        "name": "variation",
         "value": "",
         "label": "Variation",
         "description": "",
@@ -262,6 +265,13 @@
                 "value": "hero-bottom-bleed"
             }
         ]
+    },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
       },
       {
         "component": "text",
