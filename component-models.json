@@ -180,6 +180,21 @@
         "valueType": "string"
       },
       {
+        "component": "aem-content",
+        "name": "link",
+        "label": "Link1"
+      },
+      {
+        "component": "text",
+        "name": "linkText",
+        "label": "Link1 Text"
+      },
+      {
+        "component": "text",
+        "name": "linkTitle",
+        "label": "Link1 Title"
+      },
+      {
         "component": "select",
         "name": "linkType",
         "label": "Type",
@@ -197,6 +212,21 @@
             "value": "secondary"
           }
         ]
+      },
+      {
+        "component": "aem-content",
+        "name": "link1",
+        "label": "Link2"
+      },
+      {
+        "component": "text",
+        "name": "link1Text",
+        "label": "Link2 Text"
+      },
+      {
+        "component": "text",
+        "name": "link1Title",
+        "label": "Link2 Title"
       },
       {
         "component": "select",
@@ -217,7 +247,7 @@
           }
         ]
       }
-
+      
     ]
   },
   {
