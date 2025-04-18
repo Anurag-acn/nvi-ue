@@ -8,9 +8,18 @@ export default function decorate(block) {
     const li = document.createElement('li');
     moveInstrumentation(row, li);
     while (row.firstElementChild) li.append(row.firstElementChild);
+    
     [...li.children].forEach((div) => {
       if (div.children.length === 1 && div.querySelector('picture')) div.className = 'cards-card-image';
-    });
+      if(div.children.length === 2 && div.querySelector('p')) div.className = 'cards-card-pretitle';
+      if (div.children.length === 3 && div.querySelector('p')) div.className = 'cards-card-title';
+      if (div.children.length === 4 && div.querySelector('p')) div.className = 'cards-card-subtitle';
+      if (div.children.length === 5 && div.querySelector('p')) div.className = 'cards-card-bodytext';
+      // else
+      //  div.className = 'cards-card-body'
+
+    
+    });    
     ul.append(li);
   });
   ul.querySelectorAll('picture > img').forEach((img) => {
