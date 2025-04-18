@@ -250,12 +250,16 @@
         "valueType": "string",
         "options": [
             {
-                "name": "Default",
-                "value": ""
+                "name": "Right Align Full Bleed",
+                "value": "hero-right-bleed"
             },
             {
-                "name": "Left-side",
-                "value": "left-side"
+              "name": "Left Align Full Bleed",
+              "value": "hero-left-bleed"
+            },
+            {
+                "name": "Bottom Align Full Bleed",
+                "value": "hero-bottom-bleed"
             }
         ]
       },

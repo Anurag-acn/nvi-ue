@@ -23,6 +23,7 @@
 }
 .hero.block img {
   width: 100%;
+  aspect-ratio: 16/9;
 }
 .hero.block p {
   margin: 0;
