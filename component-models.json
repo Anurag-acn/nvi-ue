@@ -357,11 +357,6 @@
         "label": "Link1 Text"
       },
       {
-        "component": "text",
-        "name": "heroText_linkTitle",
-        "label": "Link1 Title"
-      },
-      {
         "component": "aem-content",
         "name": "heroText_link1",
         "label": "Link2"
@@ -370,11 +365,6 @@
         "component": "text",
         "name": "heroText_link1Text",
         "label": "Link2 Text"
-      },
-      {
-        "component": "text",
-        "name": "heroText_link1Title",
-        "label": "Link2 Title"
       }
     ]
   },
