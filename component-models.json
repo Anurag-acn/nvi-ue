@@ -290,9 +290,9 @@
       },
       {
         "component": "text",
-        "name": "heroText_pretitle",
+        "name": "heroText_eyebrow",
         "value": "",
-        "label": "pretitle",
+        "label": "Eyebrow",
         "valueType": "string"
       },
       {
